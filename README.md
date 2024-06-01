@@ -1,6 +1,6 @@
-BFS Algorithm for Shortest Path in a Maze in Java
+# BFS Algorithm for Shortest Path in a Maze in Java
 
-Algorithm Steps:
+# Algorithm Steps:
 
 Initialize a queue and add the starting cell to it.
 
@@ -15,21 +15,21 @@ If a neighbor is an open path and hasn't been visited, mark it as visited and ad
 Repeat until the queue is empty or the destination is found.
 
 
-Explanation:
+# Explanation:
 
 
-Initialization:
+# Initialization:
 
 DIRECTIONS array defines the four possible movements (up, down, left, right).
 VISITED array tracks which cells have been visited to prevent re-processing.
 QUEUE is initialized with the starting position and an initial distance of 0.
 
-BFS Process:
+# BFS Process:
 WHILE the queue is not empty, the algorithm processes each cell.
 FOR each cell, it checks if it has reached the destination.
 IF THEN explores all valid neighbors and adds them to the queue with an incremented distance.
 
-Helper Function:
+# Helper Function:
 isValid checks if a cell is within the bounds of the maze, is an open path, and has not been visited.
 
-This implementation ensures that the shortest path in an unweighted maze is found efficiently using BFS.
+# This implementation ensures that the shortest path in an unweighted maze is found efficiently using BFS.
