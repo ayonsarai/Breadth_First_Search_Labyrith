@@ -1,5 +1,22 @@
 # BFS Algorithm for Shortest Path in a Maze in Java
 
+# Algorithm: 
+
+## BFS(Graph, start_node):
+   * create a queue Q
+   * mark start_node as visited
+   * enqueue start_node into Q
+
+   ## while Q is not empty:
+       * current_node = dequeue Q
+       * process current_node
+
+       ## for each neighbor of current_node:
+          * if neighbor is not visited:
+              * mark neighbor as visited
+              * enqueue neighbor into Q
+
+
 # Algorithm Steps:
 
 Initialize a queue and add the starting cell to it.
