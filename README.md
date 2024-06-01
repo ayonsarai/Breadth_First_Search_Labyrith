@@ -11,6 +11,7 @@ Repeat until the queue is empty or the destination is found.
 Explanation:
 
 Initialization:
+
 DIRECTIONS array defines the four possible movements (up, down, left, right).
 VISITED array tracks which cells have been visited to prevent re-processing.
 QUEUE is initialized with the starting position and an initial distance of 0.
