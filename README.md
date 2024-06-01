@@ -8,13 +8,13 @@
    * enqueue start_node into Q
 
    ## while Q is not empty:
-       * current_node = dequeue Q
-       * process current_node
+   * current_node = dequeue Q
+   * process current_node
 
-       ## for each neighbor of current_node:
-          * if neighbor is not visited:
-              * mark neighbor as visited
-              * enqueue neighbor into Q
+   ## for each neighbor of current_node:
+   * if neighbor is not visited:
+   * mark neighbor as visited
+   * enqueue neighbor into Q
 
 
 # Algorithm Steps:
