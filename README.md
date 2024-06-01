@@ -14,7 +14,9 @@ If a neighbor is an open path and hasn't been visited, mark it as visited and ad
 
 Repeat until the queue is empty or the destination is found.
 
+
 Explanation:
+
 
 Initialization:
 
