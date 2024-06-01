@@ -1,11 +1,17 @@
 BFS Algorithm for Shortest Path in a Maze in Java
 
 Algorithm Steps:
+
 Initialize a queue and add the starting cell to it.
+
 Initialize a 2D array to keep track of visited cells.
+
 For each cell, explore its neighbors (up, down, left, right).
+
 If a neighbor is the destination, return the path length.
+
 If a neighbor is an open path and hasn't been visited, mark it as visited and add it to the queue.
+
 Repeat until the queue is empty or the destination is found.
 
 Explanation:
